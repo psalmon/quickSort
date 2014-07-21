@@ -1,3 +1,8 @@
+/*
+@author: Paul Salmon
+A simple quicksort implementation.
+*/
+
 import java.util.ArrayList;
 
 public class quicksort{
@@ -8,8 +13,6 @@ public class quicksort{
 		
 		ArrayList<Integer> eleList = new ArrayList(Arrays.asList(eles));
 		qsort(eleList);
-	
-		System.out.println("Hello World");
 	}
 	
 	public static void qsort(ArrayList<Integer> sList){
